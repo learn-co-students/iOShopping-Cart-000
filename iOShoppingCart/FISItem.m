@@ -20,4 +20,10 @@
     return self;
 }
 
+- (NSString *)description
+{
+    
+    return [NSString stringWithFormat:@"Name: %@, cents: %lu",self.name,self.priceInCents];
+}
+
 @end
